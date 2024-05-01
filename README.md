@@ -41,23 +41,23 @@
 
 ## Using API
 
-| Job                                   |                                Http header | Type of request                     | notes |
-|---------------------------------------|-------------------------------------------:|-------------------------------------|-------|
-| List all the Authors                  |            `http://localhost:8090/authors` | <span style="color:#41C48A">Get     | -     |
-| List all the Books                    |             `http://localhost:8090/books ` | <span style="color:#41C48A">Get     | -     |
-| List Author by Id                     |      `http://localhost:8090/authors/{id} ` | <span style="color:#41C48A">Get     | -     |
-| List Book by Isbn                     |      `http://localhost:8090/books/{isbn} ` | <span style="color:#41C48A">Get     | -     |
-| List the books that created by author | `http://localhost:8090/books/{author_id} ` | <span style="color:#41C48A">Get     | -     |
-| Create new author                     |            `http://localhost:8090/authors` | <span style="color:yellow">Post     | +json |
-| Create new book                       |       `http://localhost:8090/books/{isbn}` | <span style="color:#6CD3E5">Put     | +json |
-| Update Author information             |       `http://localhost:8090/authors/{id}` | <span style="color:#6CD3E5">Put     | +json |
-| Update Book information               |       `http://localhost:8090/books/{isbn}` | <span style="color:#6CD3E5">Put     | +json |
-| partial update author                 |       `http://localhost:8090/authors/{id}` | <span style="color:#A744C4">Patch   | +json |
-| partial update book                   |       `http://localhost:8090/books/{isbn}` | <span style="color:#A744C4">Patch   | +json |
-| Delete Author                         |       `http://localhost:8090/authors/{id}` | <span style="color:#BE4163">Deletes | -     |
-| Delete Book                           |       `http://localhost:8090/books/{isbn}` | <span style="color:#BE4163">Delete  | -     |
+| Job                                   |                                Http header | Type of request                             | notes |
+|---------------------------------------|-------------------------------------------:|---------------------------------------------|-------|
+| List all the Authors                  |            `http://localhost:8090/authors` | <span style="color:#41C48A">Get</span>      | -     |
+| List all the Books                    |             `http://localhost:8090/books ` | <span style="color:#41C48A">Get </span>     | -     |
+| List Author by Id                     |      `http://localhost:8090/authors/{id} ` | <span style="color:#41C48A">Get </span>     | -     |
+| List Book by Isbn                     |      `http://localhost:8090/books/{isbn} ` | <span style="color:#41C48A">Get </span>     | -     |
+| List the books that created by author | `http://localhost:8090/books/{author_id} ` | <span style="color:#41C48A">Get </span>     | -     |
+| Create new author                     |            `http://localhost:8090/authors` | <span style="color:yellow">Post  </span>    | +json |
+| Create new book                       |       `http://localhost:8090/books/{isbn}` | <span style="color:#6CD3E5">Put </span>     | +json |
+| Update Author information             |       `http://localhost:8090/authors/{id}` | <span style="color:#6CD3E5">Put   </span>   | +json |
+| Update Book information               |       `http://localhost:8090/books/{isbn}` | <span style="color:#6CD3E5">Put   </span>   | +json |
+| partial update author                 |       `http://localhost:8090/authors/{id}` | <span style="color:#A744C4">Patch </span>   | +json |
+| partial update book                   |       `http://localhost:8090/books/{isbn}` | <span style="color:#A744C4">Patch  </span>  | +json |
+| Delete Author                         |       `http://localhost:8090/authors/{id}` | <span style="color:#BE4163">Deletes </span> | -     |
+| Delete Book                           |       `http://localhost:8090/books/{isbn}` | <span style="color:#BE4163">Delete  </span> | -     |
 
-
+git
 
 ## Some additional types of headers:
 + `http://localhost:8090/books?size=1`
