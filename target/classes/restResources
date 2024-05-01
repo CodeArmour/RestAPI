@@ -1,0 +1,55 @@
+**************** http methods ***************
+
+////////////////////
+//****************//
+//***Books:*******//
+//****************//
+////////////////////
+
+PUT  /books/{isbn}
+** create bookEntity a success return http status 201
+
+GET  /books/{isbn}
+** read one a success return hdb status 200 unsuccessful 404
+
+GET  /books
+** return the list of the books success return hdb status 200 if the list is empty also return 200
+
+PUT  /books/{isbn}
+** update success return hdb status 201
+
+PATCH /books/{isbn}
+** partial update success return hdb status 200
+
+DELETE /books/{isbn}
+** delete 204
+
+http://localhost:8090/books?size=1&page=1
+
+https://crontab.guru/
+
+
+////////////////////
+//****************//
+//***Authors:*****//
+//****************//
+////////////////////
+
+
+POST  /authors
+** create the authorEntity, authorEntity created return 2001
+
+GET  /authorEntity/{id}
+** read one success return hdb status 200 unsuccessful 404
+
+GET  /authors
+** return the list of the authors success return hdb status 200 if the list is empty also return 200
+
+PUT  /authorEntity/{id}
+** update success return hdb status 201
+
+PATCH  /authorEntity/{id}
+** partial update success return hdb status 200
+
+DELETE  /authorEntity/{id}
+** delete 204
