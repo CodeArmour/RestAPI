@@ -4,14 +4,16 @@
 - intellij idea
 
 ### dependencies
-- org.springframework.boot
-- org.springframework.boot
-- org.modelmapper
-- org.postgresql
-- org.projectlombok
-- org.springframework.boot
-- com.h2database
-- junit.
+- spring-boot-starter-data-jpa
+- spring-boot-starter-web
+- modelmapper
+- postgresql
+- lombok
+- spring-boot-starter-test
+- h2
+- junit
+- spring-boot-starter-security
+- spring-security-test
 
 ### plugins
 - org.springframework.boot
@@ -27,6 +29,7 @@
 ### Other technics Used
 - Model Mapper
 - Docker
+- Api Key
 
 ## About this REST API
 - The API displays the authors and books stored in the database. It also displays the books to you according to the serial number of each book. It displays the authors according to their ID number. You can also display the books by author. For example, there is an author with the number 102 that will be displayed to you. All the books written by this author. You can also add books and authors as well.
