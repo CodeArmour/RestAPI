@@ -25,7 +25,7 @@ public class AuthorWatcher {
     public void authorCount(){
         final long authorCount = authorsRepo.count();
 
-        log.info("There are {} many books in the database",authorCount);
+        log.info("There are {} many authors in the database",authorCount);
 
 
 

@@ -60,6 +60,14 @@ public final class TestDataUtil {
                 .build();
     }
 
+    public static BookDto creatTestBookDtoC(final AuthorDto author) {
+        return BookDto.builder()
+                .isbn("ABC")
+                .title("Moo")
+                .author(author)
+                .build();
+    }
+
 
     public static BookEntity creatTestBookB(final AuthorEntity authorEntity) {
         return BookEntity.builder()
