@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.omar.database3.controllers.AuthorControllerIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.18 s -- in com.omar.database3.controllers.AuthorControllerIntegrationTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.42 s -- in com.omar.database3.controllers.AuthorControllerIntegrationTest
