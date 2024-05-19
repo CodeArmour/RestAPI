@@ -1,4 +1,3 @@
-com\omar\database3\config\SecurityConfig.class
 com\omar\database3\domain\dto\BookDto$BookDtoBuilder.class
 com\omar\database3\mappers\Mapper.class
 com\omar\database3\domain\dto\AuthorDto.class
@@ -17,7 +16,6 @@ com\omar\database3\controllers\AuthorController.class
 com\omar\database3\scheduled\BookWatcher.class
 com\omar\database3\services\BookService.class
 com\omar\database3\BooksApiApplication.class
-com\omar\database3\config\ApiKeyAuthFilter.class
 com\omar\database3\domain\entities\AuthorEntity.class
 com\omar\database3\mappers\impl\BookMapperImpl.class
 com\omar\database3\controllers\BookController.class

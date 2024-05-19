@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="D:\RestAPI\src\main\java\com\omar\database3\BooksApiApplication.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\config\ApiKeyAuthFilter.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\config\MapperConfig.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\config\SecurityConfig.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\controllers\AuthorController.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\controllers\BookController.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\domain\dto\AuthorDto.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\domain\dto\BookDto.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\domain\entities\AuthorEntity.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\domain\entities\BookEntity.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\mappers\impl\AuthorMapperImpl.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\mappers\impl\BookMapperImpl.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\mappers\Mapper.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\repositories\AuthorsRepo.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\repositories\BooksRepo.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\scheduled\AuthorWatcher.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\scheduled\BookWatcher.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\services\AuthorService.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\services\BookService.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\services\impl\AuthorServiceImpl.java">
+</file>
+<file name="D:\RestAPI\src\main\java\com\omar\database3\services\impl\BookServiceImpl.java">
+</file>
+<file name="D:\RestAPI\src\test\java\com\omar\database3\config\SecurityConfiguration.java">
+</file>
+<file name="D:\RestAPI\src\test\java\com\omar\database3\controllers\AuthorControllerIntegrationTest.java">
+</file>
+<file name="D:\RestAPI\src\test\java\com\omar\database3\controllers\BookControllerIntegrationTest.java">
+</file>
+<file name="D:\RestAPI\src\test\java\com\omar\database3\TestDataUtil.java">
+</file>
+<file name="D:\RestAPI\src\main\resources\application.properties">
+</file>
+<file name="D:\RestAPI\src\test\resources\application.properties">
+</file>
+</checkstyle>

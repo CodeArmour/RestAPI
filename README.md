@@ -18,6 +18,8 @@
 ### plugins
 - org.springframework.boot
 - org.projectlombok
+- maven-checkstyle-plugin
+- jacoco-maven-plugin
 
 ### Used Databases
 - **Postgres** for run program

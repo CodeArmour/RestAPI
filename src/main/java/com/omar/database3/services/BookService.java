@@ -8,19 +8,19 @@ import java.util.List;
 import java.util.Optional;
 
 public interface BookService {
-    List<BookEntity> findAll();
+  List<BookEntity> findAll();
 
-    Page<BookEntity> findAll(Pageable pageable);
+  Page<BookEntity> findAll(Pageable pageable);
 
-    BookEntity createUpdateBook(String isbn, BookEntity book);
+  BookEntity createUpdateBook(String isbn, BookEntity book);
 
-    Optional<BookEntity> findOne(String isbn);
+  Optional<BookEntity> findOne(String isbn);
 
-    boolean isExsits(String isbn);
+  boolean isExsits(String isbn);
 
-    BookEntity patialUpdate(String isbn, BookEntity bookEntity);
+  BookEntity patialUpdate(String isbn, BookEntity bookEntity);
 
-    void delete(String isbn);
+  void delete(String isbn);
 
-    List<BookEntity> findByAuthorId(Long authorId);
+  List<BookEntity> findByAuthorId(Long authorId);
 }

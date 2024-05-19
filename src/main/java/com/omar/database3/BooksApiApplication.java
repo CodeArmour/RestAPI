@@ -6,11 +6,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
+
 public class BooksApiApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(BooksApiApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(BooksApiApplication.class, args);
+  }
 }
-

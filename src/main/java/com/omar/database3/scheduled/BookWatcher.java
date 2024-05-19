@@ -11,19 +11,19 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class BookWatcher {
 
-    private final BooksRepo booksRepo;
+  private final BooksRepo booksRepo;
 
 
-    @Autowired
-    public BookWatcher(BooksRepo booksRepo) {
-        this.booksRepo = booksRepo;
-    }
+  @Autowired
+  public BookWatcher(BooksRepo booksRepo) {
+    this.booksRepo = booksRepo;
+  }
 
-    @Scheduled(fixedDelay = 10000)
-    public void printBookCount(){
-        final long bookCount = booksRepo.count();
-        log.info("There are {} many books in the database",bookCount);
-        log.info("Go to the Postman ----------->");
-        log.info("Use: Get, Put, Patch, Delete");
-    }
+  @Scheduled(fixedDelay = 10000)
+  public void printBookCount() {
+    final long bookCount = booksRepo.count();
+    log.info("There are {} many books in the database", bookCount);
+    log.info("Go to the Postman ----------->");
+    log.info("Use: Get, Put, Patch, Delete");
+  }
 }

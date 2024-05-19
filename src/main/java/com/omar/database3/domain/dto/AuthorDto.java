@@ -12,10 +12,13 @@ import lombok.NoArgsConstructor;
 @Builder
 public class AuthorDto {
 
-    private Long id;
+  @SuppressWarnings("checkstyle:JavadocVariable")
+  private Long id;
 
-    private String name;
+  @SuppressWarnings("checkstyle:JavadocVariable")
+  private String name;
 
-    private Integer age;
+  @SuppressWarnings("checkstyle:JavadocVariable")
+  private Integer age;
 
 }

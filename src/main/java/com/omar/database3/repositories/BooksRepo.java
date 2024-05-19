@@ -9,7 +9,7 @@ import java.util.List;
 
 @Repository
 public interface BooksRepo extends CrudRepository<BookEntity, String>,
-        PagingAndSortingRepository<BookEntity,String> {
-    List<BookEntity> findByAuthorEntityId(Long authorId);
+  PagingAndSortingRepository<BookEntity, String> {
+  List<BookEntity> findByAuthorEntityId(Long authorId);
 
 }

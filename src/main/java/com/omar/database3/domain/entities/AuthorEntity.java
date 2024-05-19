@@ -1,6 +1,10 @@
 package com.omar.database3.domain.entities;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,14 +17,15 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "authors")
 public class AuthorEntity {
-//Long -> default -> null
-//long -> default -> zero
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "author_id_seq")
-    private Long id;
 
-    private String name;
+  // Long -> default -> null
+  // long -> default -> zero
+  @Id
+  @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "author_id_seq")
+  private Long id;
 
-    private Integer age;
+  private String name;
+
+  private Integer age;
 
 }

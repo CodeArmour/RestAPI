@@ -12,54 +12,53 @@ import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
 import static java.lang.Boolean.FALSE;
-import static java.lang.Boolean.TRUE;
 
 @Service
 public class AuthorServiceImpl implements AuthorService {
 
-    private AuthorsRepo authorsRepo;
+  private final AuthorsRepo authorsRepo;
 
-    public AuthorServiceImpl(AuthorsRepo authorsRepo) {
-        this.authorsRepo = authorsRepo;
-    }
+  public AuthorServiceImpl(AuthorsRepo authorsRepo) {
+    this.authorsRepo = authorsRepo;
+  }
 
-    @Override
-    public AuthorEntity save(AuthorEntity authorEntity) {
-        return authorsRepo.save(authorEntity);
-    }
+  @Override
+  public AuthorEntity save(AuthorEntity authorEntity) {
+    return authorsRepo.save(authorEntity);
+  }
 
-    @Override
-    public List<AuthorEntity> findAll() {
-       return StreamSupport
-               .stream(authorsRepo
-                       .findAll()
-                       .spliterator(),FALSE)
-               .collect(Collectors.toList());
-    }
+  @Override
+  public List<AuthorEntity> findAll() {
+    return StreamSupport
+      .stream(authorsRepo
+                .findAll()
+                .spliterator(), FALSE)
+      .collect(Collectors.toList());
+  }
 
-    @Override
-    public Optional<AuthorEntity> findOne(Long id) {
-        return authorsRepo.findById(id);
-    }
+  @Override
+  public Optional<AuthorEntity> findOne(Long id) {
+    return authorsRepo.findById(id);
+  }
 
-    @Override
-    public boolean isExists(Long id) {
-        return authorsRepo.existsById(id);
-    }
+  @Override
+  public boolean isExists(Long id) {
+    return authorsRepo.existsById(id);
+  }
 
-    @Override
-    public AuthorEntity partialUpdate(Long id, AuthorEntity authorEntity) {
-        authorEntity.setId(id);
+  @Override
+  public AuthorEntity partialUpdate(Long id, AuthorEntity authorEntity) {
+    authorEntity.setId(id);
 
-        return authorsRepo.findById(id).map(existingAuthor ->{
-            Optional.ofNullable(authorEntity.getName()).ifPresent(existingAuthor::setName);
-            Optional.ofNullable(authorEntity.getAge()).ifPresent(existingAuthor::setAge);
-            return authorsRepo.save(existingAuthor);
-        }).orElseThrow(() -> new RuntimeException("Author Dose Not Exist"));
-    }
+    return authorsRepo.findById(id).map(existingAuthor -> {
+      Optional.ofNullable(authorEntity.getName()).ifPresent(existingAuthor::setName);
+      Optional.ofNullable(authorEntity.getAge()).ifPresent(existingAuthor::setAge);
+      return authorsRepo.save(existingAuthor);
+    }).orElseThrow(() -> new RuntimeException("Author Dose Not Exist"));
+  }
 
-    @Override
-    public void delete(Long id) {
-        authorsRepo.deleteById(id);
-    }
+  @Override
+  public void delete(Long id) {
+    authorsRepo.deleteById(id);
+  }
 }
