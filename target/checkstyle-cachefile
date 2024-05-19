@@ -1,4 +1,4 @@
-#Sun May 19 11:23:48 CEST 2024
+#Sun May 19 11:40:47 CEST 2024
 D\:\\RestAPI\\src\\main\\java\\com\\omar\\database3\\config\\SecurityConfig.java=1716052830987
 D\:\\RestAPI\\src\\test\\resources\\application.properties=1715337702316
 D\:\\RestAPI\\src\\main\\java\\com\\omar\\database3\\config\\MapperConfig.java=1716108290193
@@ -24,8 +24,8 @@ D\:\\RestAPI\\src\\main\\java\\com\\omar\\database3\\domain\\entities\\BookEntit
 D\:\\RestAPI\\src\\main\\java\\com\\omar\\database3\\BooksApiApplication.java=1716109999960
 D\:\\RestAPI\\src\\main\\java\\com\\omar\\database3\\scheduled\\AuthorWatcher.java=1716108290049
 D\:\\RestAPI\\src\\main\\java\\com\\omar\\database3\\services\\impl\\BookServiceImpl.java=1716108290114
-module-resource*?\:checkstyle-xpath-suppressions.xml=E9C35E6BE3D97AE9EA3F6FABC9C90483DCBC8F56
-module-resource*?\:checkstyle-suppressions.xml=7278149EFEF88AD64BB7933EB21896937E9E87EA
+module-resource*?\:checkstyle-xpath-suppressions.xml=1270AEEAEE391BD169BB1CF498DC087E404FD697
+module-resource*?\:checkstyle-suppressions.xml=3931B84416BB8C4517ED5BED822D9670FC574F36
 D\:\\RestAPI\\src\\test\\java\\com\\omar\\database3\\controllers\\BookControllerIntegrationTest.java=1716108290028
 D\:\\RestAPI\\src\\main\\java\\com\\omar\\database3\\domain\\entities\\AuthorEntity.java=1716110210235
 D\:\\RestAPI\\src\\test\\java\\com\\omar\\database3\\controllers\\AuthorControllerIntegrationTest.java=1716108289944
