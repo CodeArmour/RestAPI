@@ -50,8 +50,8 @@ public class BookServiceImpl implements BookService {
   }
 
   @Override
-  public List&lt;BookEntity&gt; findByAuthorId(Long authorId) {
-<span class="fc" id="L54">    return booksRepo.findByAuthorEntityId(authorId);</span>
+  public Page&lt;BookEntity&gt; findByAuthorId(Long authorId, Pageable pageable) {
+<span class="fc" id="L54">    return booksRepo.findByAuthorEntityId(authorId, pageable);</span>
   }
 
   @Override

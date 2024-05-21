@@ -22,5 +22,5 @@ public interface BookService {
 
   void delete(String isbn);
 
-  List<BookEntity> findByAuthorId(Long authorId);
+  Page<BookEntity> findByAuthorId(Long authorId, Pageable pageable);
 }

@@ -16,9 +16,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @RestController
 public class BookController {
@@ -26,64 +24,64 @@ public class BookController {
   private final Mapper&lt;BookEntity, BookDto&gt; bookMapper;
   private final BookService bookService;
 
-<span class="fc" id="L29">  public BookController(Mapper&lt;BookEntity, BookDto&gt; bookMapper, BookService bookService) {</span>
-<span class="fc" id="L30">    this.bookMapper = bookMapper;</span>
-<span class="fc" id="L31">    this.bookService = bookService;</span>
-<span class="fc" id="L32">  }</span>
+<span class="fc" id="L27">  public BookController(Mapper&lt;BookEntity, BookDto&gt; bookMapper, BookService bookService) {</span>
+<span class="fc" id="L28">    this.bookMapper = bookMapper;</span>
+<span class="fc" id="L29">    this.bookService = bookService;</span>
+<span class="fc" id="L30">  }</span>
 
   @PutMapping(&quot;/books/{isbn}&quot;)
   public ResponseEntity&lt;BookDto&gt; createUpdateBook(@PathVariable(&quot;isbn&quot;) String isbn, @RequestBody BookDto bookDto) {
-<span class="fc" id="L36">    BookEntity bookEntity = bookMapper.mapFrom(bookDto);</span>
-<span class="fc" id="L37">    boolean bookExists = bookService.isExsits(isbn);</span>
-<span class="fc" id="L38">    BookEntity savedBookEntity = bookService.createUpdateBook(isbn, bookEntity);</span>
-<span class="fc" id="L39">    BookDto savedBookDto = bookMapper.mapTo(savedBookEntity);</span>
+<span class="fc" id="L34">    BookEntity bookEntity = bookMapper.mapFrom(bookDto);</span>
+<span class="fc" id="L35">    boolean bookExists = bookService.isExsits(isbn);</span>
+<span class="fc" id="L36">    BookEntity savedBookEntity = bookService.createUpdateBook(isbn, bookEntity);</span>
+<span class="fc" id="L37">    BookDto savedBookDto = bookMapper.mapTo(savedBookEntity);</span>
 
-<span class="fc bfc" id="L41" title="All 2 branches covered.">    if (bookExists) {</span>
-<span class="fc" id="L42">      return new ResponseEntity&lt;BookDto&gt;(savedBookDto, HttpStatus.OK);</span>
+<span class="fc bfc" id="L39" title="All 2 branches covered.">    if (bookExists) {</span>
+<span class="fc" id="L40">      return new ResponseEntity&lt;BookDto&gt;(savedBookDto, HttpStatus.OK);</span>
     } else {
-<span class="fc" id="L44">      return new ResponseEntity&lt;BookDto&gt;(savedBookDto, HttpStatus.CREATED);</span>
+<span class="fc" id="L42">      return new ResponseEntity&lt;BookDto&gt;(savedBookDto, HttpStatus.CREATED);</span>
     }
   }
 
   @GetMapping(path = &quot;/books&quot;)
   public Page&lt;BookDto&gt; listBook(Pageable pageable) {
-<span class="fc" id="L50">    Page&lt;BookEntity&gt; books = bookService.findAll(pageable);</span>
-<span class="fc" id="L51">    return books.map(bookMapper::mapTo);</span>
+<span class="fc" id="L48">    Page&lt;BookEntity&gt; books = bookService.findAll(pageable);</span>
+<span class="fc" id="L49">    return books.map(bookMapper::mapTo);</span>
   }
 
   @GetMapping(path = &quot;/books/{isbn}&quot;)
   public ResponseEntity&lt;BookDto&gt; findOne(@PathVariable(&quot;isbn&quot;) String isbn) {
-<span class="fc" id="L56">    Optional&lt;BookEntity&gt; foundBook = bookService.findOne(isbn);</span>
-<span class="fc" id="L57">    return foundBook.map(bookEntity -&gt; {</span>
-<span class="fc" id="L58">      BookDto bookDto = bookMapper.mapTo(bookEntity);</span>
-<span class="fc" id="L59">      return new ResponseEntity&lt;&gt;(bookDto, HttpStatus.OK);</span>
-<span class="fc" id="L60">    }).orElse(new ResponseEntity&lt;&gt;(HttpStatus.NOT_FOUND));</span>
+<span class="fc" id="L54">    Optional&lt;BookEntity&gt; foundBook = bookService.findOne(isbn);</span>
+<span class="fc" id="L55">    return foundBook.map(bookEntity -&gt; {</span>
+<span class="fc" id="L56">      BookDto bookDto = bookMapper.mapTo(bookEntity);</span>
+<span class="fc" id="L57">      return new ResponseEntity&lt;&gt;(bookDto, HttpStatus.OK);</span>
+<span class="fc" id="L58">    }).orElse(new ResponseEntity&lt;&gt;(HttpStatus.NOT_FOUND));</span>
   }
 
   @GetMapping(&quot;/books/authors/{authorId}&quot;)
-  public List&lt;BookDto&gt; listBooksByAuthor(@PathVariable(&quot;authorId&quot;) Long authorId) {
-<span class="fc" id="L65">    List&lt;BookEntity&gt; booksByAuthor = bookService.findByAuthorId(authorId);</span>
-<span class="fc" id="L66">    return booksByAuthor.stream().map(bookMapper::mapTo).collect(Collectors.toList());</span>
+  public Page&lt;BookDto&gt; listBooksByAuthor(@PathVariable(&quot;authorId&quot;) Long authorId, Pageable pageable) {
+<span class="fc" id="L63">    Page&lt;BookEntity&gt; booksByAuthor = bookService.findByAuthorId(authorId, pageable);</span>
+<span class="fc" id="L64">    return booksByAuthor.map(bookMapper::mapTo);</span>
   }
 
 
   @PatchMapping(path = &quot;/books/{isbn}&quot;)
   public ResponseEntity&lt;BookDto&gt; partialUpdate(@PathVariable(&quot;isbn&quot;) String isbn, @RequestBody BookDto bookDto) {
-<span class="fc" id="L72">    BookEntity bookEntity = bookMapper.mapFrom(bookDto);</span>
-<span class="fc" id="L73">    boolean bookExists = bookService.isExsits(isbn);</span>
+<span class="fc" id="L70">    BookEntity bookEntity = bookMapper.mapFrom(bookDto);</span>
+<span class="fc" id="L71">    boolean bookExists = bookService.isExsits(isbn);</span>
 
-<span class="pc bpc" id="L75" title="1 of 2 branches missed.">    if (!bookService.isExsits(isbn)) {</span>
-<span class="nc" id="L76">      return new ResponseEntity&lt;&gt;(HttpStatus.NOT_FOUND);</span>
+<span class="pc bpc" id="L73" title="1 of 2 branches missed.">    if (!bookService.isExsits(isbn)) {</span>
+<span class="nc" id="L74">      return new ResponseEntity&lt;&gt;(HttpStatus.NOT_FOUND);</span>
     }
 
-<span class="fc" id="L79">    BookEntity updatedBookEntity = bookService.patialUpdate(isbn, bookEntity);</span>
-<span class="fc" id="L80">    return new ResponseEntity&lt;&gt;(bookMapper.mapTo(updatedBookEntity), HttpStatus.OK);</span>
+<span class="fc" id="L77">    BookEntity updatedBookEntity = bookService.patialUpdate(isbn, bookEntity);</span>
+<span class="fc" id="L78">    return new ResponseEntity&lt;&gt;(bookMapper.mapTo(updatedBookEntity), HttpStatus.OK);</span>
   }
 
   @DeleteMapping(path = &quot;/books/{isbn}&quot;)
   public ResponseEntity&lt;BookDto&gt; delete(@PathVariable(&quot;isbn&quot;) String isbn) {
-<span class="fc" id="L85">    bookService.delete(isbn);</span>
-<span class="fc" id="L86">    return new ResponseEntity&lt;&gt;(HttpStatus.NO_CONTENT);</span>
+<span class="fc" id="L83">    bookService.delete(isbn);</span>
+<span class="fc" id="L84">    return new ResponseEntity&lt;&gt;(HttpStatus.NO_CONTENT);</span>
   }
 
 }

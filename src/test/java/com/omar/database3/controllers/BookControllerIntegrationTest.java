@@ -141,9 +141,9 @@ public class BookControllerIntegrationTest {
       MockMvcRequestBuilders.get("/books/authors/" + testAuthor.getId())
         .contentType(MediaType.APPLICATION_JSON)
     ).andExpect(
-      MockMvcResultMatchers.jsonPath("$[0].isbn").value(testBookB.getIsbn())
+      MockMvcResultMatchers.jsonPath("$.content[0].isbn").value(testBookB.getIsbn())
     ).andExpect(
-      MockMvcResultMatchers.jsonPath("$[0].title").value(testBookB.getTitle())
+      MockMvcResultMatchers.jsonPath("$.content[0].title").value(testBookB.getTitle())
     );
   }
 

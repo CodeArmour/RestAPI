@@ -16,9 +16,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @RestController
 public class BookController {
@@ -61,9 +59,9 @@ public class BookController {
   }
 
   @GetMapping("/books/authors/{authorId}")
-  public List<BookDto> listBooksByAuthor(@PathVariable("authorId") Long authorId) {
-    List<BookEntity> booksByAuthor = bookService.findByAuthorId(authorId);
-    return booksByAuthor.stream().map(bookMapper::mapTo).collect(Collectors.toList());
+  public Page<BookDto> listBooksByAuthor(@PathVariable("authorId") Long authorId, Pageable pageable) {
+    Page<BookEntity> booksByAuthor = bookService.findByAuthorId(authorId, pageable);
+    return booksByAuthor.map(bookMapper::mapTo);
   }
 
 
