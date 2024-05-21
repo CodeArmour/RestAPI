@@ -74,3 +74,48 @@ DELETE  /authorEntity/{id}
     }
 
 
+Why Dto:
+Separation of Concerns:
+
+    Decoupling Layers: DTOs help decouple the service layer from the persistence layer.
+    This means changes in the database structure do not necessarily require changes in the
+    service layer or API layer. Entities represent the database schema, while DTOs represent
+    the data you actually need to expose via your APIs or services.
+
+Security:
+
+1.Data Exposure Control: By using DTOs, you can control exactly what data is exposed to the client.
+  Entities may contain sensitive information or internal details that should not be exposed to users
+  or external systems. DTOs can be tailored to include only the necessary and safe fields.
+
+Performance:
+
+1.Performance Optimization: DTOs can be used to fetch only the required data from the database.
+  If you use entities directly, you might end up fetching and processing unnecessary data, which
+  can affect performance. DTOs allow for efficient data transfer, especially in cases where only
+  a subset of entity fields is needed.
+
+Flexibility and Evolution:
+
+1.API Evolution: As your API evolves, DTOs can be adjusted without impacting the underlying database
+  schema or entities. This flexibility is crucial for maintaining backward compatibility and making
+  iterative improvements.
+
+Validation and Transformation:
+
+1.Validation: DTOs can include validation annotations to ensure that incoming data meets the required
+  criteria before any processing or persistence logic is applied. This is particularly useful for incoming
+  API requests.
+
+2.Data Transformation: DTOs can be used to transform and aggregate data from multiple entities into a single
+  response object, or to transform complex entity relationships into a more user-friendly structure.
+
+Simplification and Readability:
+
+1.Simplification: Using DTOs can simplify the representation of complex data structures, making it
+  easier for clients to understand and consume the API.
+
+2.Readability and Maintenance: Code that uses DTOs is often easier to read and maintain because it
+  clearly separates the concerns of data persistence and data presentation.
+
+
