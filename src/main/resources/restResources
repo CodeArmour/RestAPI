@@ -53,3 +53,24 @@ PATCH  /authorEntity/{id}
 
 DELETE  /authorEntity/{id}
 ** delete 204
+
+
+
+    {
+        "id": 1,
+        "name": "Omar",
+        "age": 22
+    }
+
+
+    {
+         "isbn": "VF57Y",
+         "title": "Never Give Up",
+         "author": {
+              "id": 1,
+              "name": "Omar",
+              "age": 22
+                }
+    }
+
+
