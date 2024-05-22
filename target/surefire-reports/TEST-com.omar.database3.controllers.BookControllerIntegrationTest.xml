@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.omar.database3.controllers.BookControllerIntegrationTest" time="6.332" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.omar.database3.controllers.BookControllerIntegrationTest" time="7.629" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\omars\tools\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\omars\AppData\Local\Temp\surefire2474677942796498844\surefirebooter-20240521222432438_3.jar C:\Users\omars\AppData\Local\Temp\surefire2474677942796498844 2024-05-21T22-24-32_273-jvmRun1 surefire-20240521222432438_1tmp surefire_0-20240521222432438_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\omars\AppData\Local\Temp\surefire4989496783493191682\surefirebooter-20240522140628978_3.jar C:\Users\omars\AppData\Local\Temp\surefire4989496783493191682 2024-05-22T14-06-28_822-jvmRun1 surefire-20240522140628978_1tmp surefire_0-20240522140628978_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\RestAPI\target\test-classes;D:\RestAPI\target\classes;C:\Users\omars\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.3.0-M3\spring-boot-starter-data-jpa-3.3.0-M3.jar;C:\Users\omars\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.3.0-M3\spring-boot-starter-aop-3.3.0-M3.jar;C:\Users\omars\.m2\repository\org\springframework\spring-aop\6.1.5\spring-aop-6.1.5.jar;C:\Users\omars\.m2\repository\org\aspectj\aspectjweaver\1.9.21\aspectjweaver-1.9.21.jar;C:\Users\omars\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.3.0-M3\spring-boot-starter-jdbc-3.3.0-M3.jar;C:\Users\omars\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\omars\.m2\repository\org\springframework\spring-jdbc\6.1.5\spring-jdbc-6.1.5.jar;C:\Users\omars\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\omars\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\omars\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\omars\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\omars\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\omars\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\omars\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\omars\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\omars\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\omars\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\omars\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\omars\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\omars\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\omars\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\omars\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\omars\.m2\repository\org\springframework\data\spring-data-jpa\3.3.0-M2\spring-data-jpa-3.3.0-M2.jar;C:\Users\omars\.m2\repository\org\springframework\data\spring-data-commons\3.3.0-M2\spring-data-commons-3.3.0-M2.jar;C:\Users\omars\.m2\repository\org\springframework\spring-orm\6.1.5\spring-orm-6.1.5.jar;C:\Users\omars\.m2\repository\org\springframework\spring-context\6.1.5\spring-context-6.1.5.jar;C:\Users\omars\.m2\repository\org\springframework\spring-tx\6.1.5\spring-tx-6.1.5.jar;C:\Users\omars\.m2\repository\org\springframework\spring-beans\6.1.5\spring-beans-6.1.5.jar;C:\Users\omars\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\omars\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\omars\.m2\repository\org\springframework\spring-aspects\6.1.5\spring-aspects-6.1.5.jar;C:\Users\omars\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.0-M3\spring-boot-starter-web-3.3.0-M3.jar;C:\Users\omars\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.0-M3\spring-boot-starter-3.3.0-M3.jar;C:\Users\omars\.m2\repository\org\springframework\boot\spring-boot\3.3.0-M3\spring-boot-3.3.0-M3.jar;C:\Users\omars\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.0-M3\spring-boot-autoconfigure-3.3.0-M3.jar;C:\Users\omars\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.0-M3\spring-boot-starter-logging-3.3.0-M3.jar;C:\Users\omars\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\omars\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\omars\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;C:\Users\omars\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\omars\.m2\repository\org\slf4j\jul-to-slf4j\2.0.12\jul-to-slf4j-2.0.12.jar;C:\Users\omars\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\omars\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.0-M3\spring-boot-starter-json-3.3.0-M3.jar;C:\Users\omars\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\omars\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\omars\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\omars\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.0\jackson-datatype-jdk8-2.17.0.jar;C:\Users\omars\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.0\jackson-datatype-jsr310-2.17.0.jar;C:\Users\omars\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.0\jackson-module-parameter-names-2.17.0.jar;C:\Users\omars\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.0-M3\spring-boot-starter-tomcat-3.3.0-M3.jar;C:\Users\omars\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.19\tomcat-embed-core-10.1.19.jar;C:\Users\omars\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.19\tomcat-embed-el-10.1.19.jar;C:\Users\omars\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.19\tomcat-embed-websocket-10.1.19.jar;C:\Users\omars\.m2\repository\org\springframework\spring-web\6.1.5\spring-web-6.1.5.jar;C:\Users\omars\.m2\repository\io\micrometer\micrometer-observation\1.13.0-M2\micrometer-observation-1.13.0-M2.jar;C:\Users\omars\.m2\repository\io\micrometer\micrometer-commons\1.13.0-M2\micrometer-commons-1.13.0-M2.jar;C:\Users\omars\.m2\repository\org\springframework\spring-webmvc\6.1.5\spring-webmvc-6.1.5.jar;C:\Users\omars\.m2\repository\org\springframework\spring-expression\6.1.5\spring-expression-6.1.5.jar;C:\Users\omars\.m2\repository\org\modelmapper\modelmapper\3.0.0\modelmapper-3.0.0.jar;C:\Users\omars\.m2\repository\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar;C:\Users\omars\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\omars\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\omars\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.3.0-M3\spring-boot-starter-test-3.3.0-M3.jar;C:\Users\omars\.m2\repository\org\springframework\boot\spring-boot-test\3.3.0-M3\spring-boot-test-3.3.0-M3.jar;C:\Users\omars\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.3.0-M3\spring-boot-test-autoconfigure-3.3.0-M3.jar;C:\Users\omars\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\omars\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\omars\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\omars\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\omars\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\omars\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\omars\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\omars\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\omars\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\omars\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\omars\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\omars\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\omars\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\omars\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\omars\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\omars\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\omars\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\omars\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\omars\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\omars\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\omars\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;C:\Users\omars\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\omars\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\omars\.m2\repository\org\springframework\spring-core\6.1.5\spring-core-6.1.5.jar;C:\Users\omars\.m2\repository\org\springframework\spring-jcl\6.1.5\spring-jcl-6.1.5.jar;C:\Users\omars\.m2\repository\org\springframework\spring-test\6.1.5\spring-test-6.1.5.jar;C:\Users\omars\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\omars\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\omars\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\omars\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="windows-1252"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\omars\AppData\Local\Temp\surefire2474677942796498844\surefirebooter-20240521222432438_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\omars\AppData\Local\Temp\surefire4989496783493191682\surefirebooter-20240522140628978_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
@@ -46,12 +46,13 @@
     <property name="localRepository" value="C:\Users\omars\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\omars\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.2.2"/>
     <property name="com.zaxxer.hikari.pool_number" value="29"/>
     <property name="java.version" value="17.0.8"/>
     <property name="user.dir" value="D:\RestAPI"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="21084"/>
+    <property name="PID" value="18904"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="windows-1252"/>
     <property name="native.encoding" value="Cp1252"/>
@@ -62,9 +63,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testThatGetBookReturnsBookWhenBookExists" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.07">
-    <system-out><![CDATA[2024-05-21T22:24:50.916+02:00  INFO 21084 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.omar.database3.controllers.BookControllerIntegrationTest]: BookControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-05-21T22:24:50.920+02:00  INFO 21084 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.omar.database3.BooksApiApplication for test class com.omar.database3.controllers.BookControllerIntegrationTest
+  <testcase name="testThatGetBookReturnsBookWhenBookExists" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.051">
+    <system-out><![CDATA[2024-05-22T14:06:49.343+02:00  INFO 18904 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.omar.database3.controllers.BookControllerIntegrationTest]: BookControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-22T14:06:49.349+02:00  INFO 18904 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.omar.database3.BooksApiApplication for test class com.omar.database3.controllers.BookControllerIntegrationTest
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -74,33 +75,33 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:50.945+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:50.946+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:51.076+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:51.085+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:51.142+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
-2024-05-21T22:24:51.143+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-15 - Added connection conn108: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:51.143+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
-2024-05-21T22:24:51.145+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:51.147+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:51.151+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:51.192+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:51.197+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:51.254+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:51.352+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:51.353+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:51.353+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-05-21T22:24:51.359+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.435 seconds (process running for 18.796)
-2024-05-21T22:24:51.366+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:51.370+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:51.370+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:51.370+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:51.407+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:51.409+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
-2024-05-21T22:24:51.435+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2024-05-22T14:06:49.395+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:49.396+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:49.583+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:49.596+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:49.728+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2024-05-22T14:06:49.729+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-15 - Added connection conn115: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:49.730+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2024-05-22T14:06:49.732+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:49.736+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:49.742+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:49.797+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:49.805+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:49.898+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:49.997+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:49.997+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:49.998+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-22T14:06:50.004+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.649 seconds (process running for 20.881)
+2024-05-22T14:06:50.009+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:50.012+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:50.012+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:50.012+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:50.040+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:50.041+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2024-05-22T14:06:50.057+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatListAuthorsBooksReturnsBooksList" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.13">
+  <testcase name="testThatListAuthorsBooksReturnsBooksList" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.123">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -110,37 +111,37 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:51.466+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:51.466+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:51.603+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:51.615+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:51.705+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
-2024-05-21T22:24:51.706+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Added connection conn115: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:51.706+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
-2024-05-21T22:24:51.708+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:51.710+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:51.716+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:51.763+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:51.769+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:51.838+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:51.960+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:51.960+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:51.961+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-05-21T22:24:51.970+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.53 seconds (process running for 19.408)
-2024-05-21T22:24:51.974+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:51.979+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:51.979+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:51.979+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:52.083+02:00  WARN 21084 --- [           main] PageModule$PlainPageSerializationWarning : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+2024-05-22T14:06:50.096+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:50.097+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:50.221+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:50.229+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:50.324+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2024-05-22T14:06:50.325+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Added connection conn123: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:50.326+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2024-05-22T14:06:50.329+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:50.333+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:50.339+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:50.391+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:50.396+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:50.483+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:50.651+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:50.651+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:50.652+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-22T14:06:50.658+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.594 seconds (process running for 21.535)
+2024-05-22T14:06:50.663+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:50.667+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:50.667+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:50.667+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:50.759+02:00  WARN 18904 --- [           main] PageModule$PlainPageSerializationWarning : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
 	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
 	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
-2024-05-21T22:24:52.100+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:52.102+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
-2024-05-21T22:24:52.103+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+2024-05-22T14:06:50.777+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:50.782+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2024-05-22T14:06:50.783+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatUpdateBookReturnsUpdatedBook" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.063">
+  <testcase name="testThatUpdateBookReturnsUpdatedBook" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.067">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -150,33 +151,33 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:52.120+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:52.122+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:52.231+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:52.241+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:52.297+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Starting...
-2024-05-21T22:24:52.299+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-17 - Added connection conn125: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:52.300+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Start completed.
-2024-05-21T22:24:52.301+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:52.304+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:52.307+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:52.347+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:52.352+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:52.404+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:52.485+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:52.485+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:52.486+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-05-21T22:24:52.493+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.388 seconds (process running for 19.931)
-2024-05-21T22:24:52.498+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:52.502+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:52.502+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:52.502+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:52.531+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:52.534+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown initiated...
-2024-05-21T22:24:52.560+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown completed.
+2024-05-22T14:06:50.804+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:50.804+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:50.899+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:50.908+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:50.973+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Starting...
+2024-05-22T14:06:50.974+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-17 - Added connection conn133: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:50.974+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Start completed.
+2024-05-22T14:06:50.976+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:50.979+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:50.990+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:51.055+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:51.061+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:51.111+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:51.213+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:51.214+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:51.215+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-22T14:06:51.225+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.438 seconds (process running for 22.101)
+2024-05-22T14:06:51.231+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:51.235+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:51.236+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:51.236+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:51.266+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:51.268+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown initiated...
+2024-05-22T14:06:51.297+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatDeleteBookReturnsStatus204ForNotExistingBook" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.033">
+  <testcase name="testThatDeleteBookReturnsStatus204ForNotExistingBook" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.046">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -186,33 +187,33 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:52.587+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:52.587+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:52.741+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:52.752+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:52.841+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
-2024-05-21T22:24:52.843+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-18 - Added connection conn131: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:52.843+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Start completed.
-2024-05-21T22:24:52.845+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:52.847+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:52.852+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:52.901+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:52.906+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:52.952+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:53.032+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:53.033+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:53.033+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-05-21T22:24:53.039+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.476 seconds (process running for 20.478)
-2024-05-21T22:24:53.043+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:53.046+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:53.046+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:53.046+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:53.052+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:53.054+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown initiated...
-2024-05-21T22:24:53.074+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown completed.
+2024-05-22T14:06:51.311+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:51.311+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:51.474+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:51.482+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:51.541+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
+2024-05-22T14:06:51.542+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-18 - Added connection conn141: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:51.542+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Start completed.
+2024-05-22T14:06:51.543+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:51.545+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:51.551+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:51.617+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:51.624+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:51.698+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:51.774+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:51.774+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:51.774+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-05-22T14:06:51.784+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.484 seconds (process running for 22.66)
+2024-05-22T14:06:51.789+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:51.792+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:51.793+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:51.793+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:51.805+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:51.807+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown initiated...
+2024-05-22T14:06:51.834+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatCreateBookReturnsHttp201Created" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.047">
+  <testcase name="testThatCreateBookReturnsHttp201Created" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.035">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -222,33 +223,33 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:53.090+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:53.090+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:53.173+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:53.182+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:53.236+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
-2024-05-21T22:24:53.237+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-19 - Added connection conn136: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:53.237+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Start completed.
-2024-05-21T22:24:53.238+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:53.240+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:53.243+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:53.281+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:53.287+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:53.349+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:53.438+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:53.438+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:53.439+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-05-21T22:24:53.447+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.37 seconds (process running for 20.885)
-2024-05-21T22:24:53.451+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:53.454+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:53.455+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:53.455+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:53.484+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:53.485+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown initiated...
-2024-05-21T22:24:53.496+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown completed.
+2024-05-22T14:06:51.856+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:51.856+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:51.962+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:51.973+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:52.069+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
+2024-05-22T14:06:52.071+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-19 - Added connection conn148: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:52.072+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Start completed.
+2024-05-22T14:06:52.074+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:52.076+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:52.081+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:52.124+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:52.128+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:52.177+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:52.254+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:52.254+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:52.255+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-22T14:06:52.260+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.424 seconds (process running for 23.137)
+2024-05-22T14:06:52.264+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:52.268+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:52.268+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:52.268+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:52.288+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:52.289+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown initiated...
+2024-05-22T14:06:52.298+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatUpdateBookReturnsHttp200Ok" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.044">
+  <testcase name="testThatUpdateBookReturnsHttp200Ok" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.057">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -258,33 +259,33 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:53.515+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:53.515+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:53.617+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:53.625+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:53.675+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Starting...
-2024-05-21T22:24:53.676+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-20 - Added connection conn142: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:53.676+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Start completed.
-2024-05-21T22:24:53.677+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:53.679+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:53.682+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:53.730+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:53.736+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:53.779+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:53.852+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:53.852+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:53.852+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-05-21T22:24:53.858+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.358 seconds (process running for 21.296)
-2024-05-21T22:24:53.862+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:53.865+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:53.865+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:53.865+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:53.888+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:53.889+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown initiated...
-2024-05-21T22:24:53.906+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown completed.
+2024-05-22T14:06:52.311+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:52.311+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:52.449+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:52.462+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:52.519+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Starting...
+2024-05-22T14:06:52.520+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-20 - Added connection conn153: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:52.520+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Start completed.
+2024-05-22T14:06:52.521+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:52.523+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:52.526+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:52.560+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:52.565+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:52.624+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:52.745+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:52.745+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:52.746+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-22T14:06:52.752+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.452 seconds (process running for 23.628)
+2024-05-22T14:06:52.756+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:52.758+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:52.759+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:52.759+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:52.782+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:52.784+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown initiated...
+2024-05-22T14:06:52.811+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatDeleteBookReturnsStatus204ForExistingBook" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.039">
+  <testcase name="testThatDeleteBookReturnsStatus204ForExistingBook" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.026">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -294,33 +295,33 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:53.924+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:53.924+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:54.018+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:54.026+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:54.081+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Starting...
-2024-05-21T22:24:54.082+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-21 - Added connection conn147: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:54.083+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Start completed.
-2024-05-21T22:24:54.084+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:54.086+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:54.090+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:54.136+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:54.142+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:54.185+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:54.261+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:54.261+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:54.262+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-05-21T22:24:54.268+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.36 seconds (process running for 21.707)
-2024-05-21T22:24:54.272+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:54.275+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:54.275+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:54.275+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:54.293+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:54.296+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown initiated...
-2024-05-21T22:24:54.310+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown completed.
+2024-05-22T14:06:52.828+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:52.828+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:52.937+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:52.948+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:53.018+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Starting...
+2024-05-22T14:06:53.019+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-21 - Added connection conn160: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:53.019+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Start completed.
+2024-05-22T14:06:53.020+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:53.022+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:53.025+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:53.064+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:53.069+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:53.140+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:53.244+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:53.245+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:53.245+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-05-22T14:06:53.251+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.436 seconds (process running for 24.127)
+2024-05-22T14:06:53.255+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:53.257+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:53.257+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:53.257+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:53.270+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:53.271+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown initiated...
+2024-05-22T14:06:53.279+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatGetBookReturnsHttp404CreatedWhenBookNotExists" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.043">
+  <testcase name="testThatGetBookReturnsHttp404CreatedWhenBookNotExists" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.03">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -330,33 +331,33 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:54.327+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:54.328+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:54.414+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:54.422+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:54.469+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Starting...
-2024-05-21T22:24:54.470+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-22 - Added connection conn152: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:54.470+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Start completed.
-2024-05-21T22:24:54.471+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:54.473+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:54.476+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:54.511+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:54.516+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:54.558+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:54.641+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:54.641+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:54.642+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-05-21T22:24:54.651+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.337 seconds (process running for 22.089)
-2024-05-21T22:24:54.654+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:54.657+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:54.657+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:54.658+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:54.669+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:54.671+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown initiated...
-2024-05-21T22:24:54.696+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown completed.
+2024-05-22T14:06:53.298+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:53.298+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:53.392+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:53.405+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:53.484+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Starting...
+2024-05-22T14:06:53.486+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-22 - Added connection conn166: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:53.486+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Start completed.
+2024-05-22T14:06:53.489+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:53.491+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:53.494+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:53.531+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:53.535+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:53.573+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:53.668+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:53.668+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:53.669+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-22T14:06:53.676+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.394 seconds (process running for 24.553)
+2024-05-22T14:06:53.685+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:53.689+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:53.689+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:53.689+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:53.702+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:53.703+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown initiated...
+2024-05-22T14:06:53.715+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatListBookReturnsBook" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.06">
+  <testcase name="testThatListBookReturnsBook" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.054">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -366,37 +367,37 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:54.712+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:54.713+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:54.807+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:54.814+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:54.856+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Starting...
-2024-05-21T22:24:54.856+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-23 - Added connection conn157: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:54.857+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Start completed.
-2024-05-21T22:24:54.858+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:54.859+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:54.863+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:54.894+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:54.899+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:54.953+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:55.018+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:55.018+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:55.019+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-05-21T22:24:55.025+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.326 seconds (process running for 22.462)
-2024-05-21T22:24:55.030+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:55.036+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:55.036+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:55.036+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:55.052+02:00  WARN 21084 --- [           main] PageModule$PlainPageSerializationWarning : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+2024-05-22T14:06:53.730+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:53.730+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:53.823+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:53.829+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:53.871+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Starting...
+2024-05-22T14:06:53.872+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-23 - Added connection conn171: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:53.873+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Start completed.
+2024-05-22T14:06:53.875+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:53.876+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:53.879+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:53.936+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:53.942+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:54.008+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:54.072+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:54.072+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:54.073+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-22T14:06:54.078+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.36 seconds (process running for 24.954)
+2024-05-22T14:06:54.082+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:54.084+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:54.084+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:54.084+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:54.100+02:00  WARN 18904 --- [           main] PageModule$PlainPageSerializationWarning : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
 	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
 	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
-2024-05-21T22:24:55.060+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:55.066+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown initiated...
-2024-05-21T22:24:55.088+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown completed.
+2024-05-22T14:06:54.110+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:54.114+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown initiated...
+2024-05-22T14:06:54.133+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatPartialUpdateBookReturnsUpdatedBook" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.07">
+  <testcase name="testThatPartialUpdateBookReturnsUpdatedBook" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.055">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -406,33 +407,33 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:55.109+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:55.109+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:55.197+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:55.205+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:55.259+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Starting...
-2024-05-21T22:24:55.260+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-24 - Added connection conn162: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:55.260+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Start completed.
-2024-05-21T22:24:55.261+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:55.264+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:55.267+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:55.299+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:55.304+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:55.343+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:55.407+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:55.407+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:55.408+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-05-21T22:24:55.416+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.326 seconds (process running for 22.855)
-2024-05-21T22:24:55.421+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:55.425+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:55.425+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:55.425+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:55.459+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:55.462+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown initiated...
-2024-05-21T22:24:55.490+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown completed.
+2024-05-22T14:06:54.161+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:54.161+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:54.369+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:54.387+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:54.503+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Starting...
+2024-05-22T14:06:54.504+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-24 - Added connection conn177: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:54.504+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Start completed.
+2024-05-22T14:06:54.505+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:54.507+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:54.511+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:54.548+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:54.552+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:54.607+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:54.695+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:54.695+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:54.696+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-22T14:06:54.704+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.567 seconds (process running for 25.58)
+2024-05-22T14:06:54.708+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:54.711+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:54.711+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:54.711+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:54.736+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:54.737+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown initiated...
+2024-05-22T14:06:54.761+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatGetBookReturnsHttp2000kCreatedWhenBookExists" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.034">
+  <testcase name="testThatGetBookReturnsHttp2000kCreatedWhenBookExists" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.046">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -442,33 +443,33 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:55.507+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:55.507+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:55.595+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:55.600+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:55.658+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Starting...
-2024-05-21T22:24:55.658+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Added connection conn167: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:55.659+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Start completed.
-2024-05-21T22:24:55.660+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:55.662+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:55.665+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:55.707+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:55.715+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:55.754+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:55.815+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:55.815+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:55.815+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-05-21T22:24:55.822+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.33 seconds (process running for 23.26)
-2024-05-21T22:24:55.826+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:55.830+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:55.831+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:55.831+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:55.848+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:55.850+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown initiated...
-2024-05-21T22:24:55.857+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown completed.
+2024-05-22T14:06:54.775+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:54.775+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:54.920+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:54.928+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:54.989+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Starting...
+2024-05-22T14:06:54.990+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-25 - Added connection conn183: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:54.991+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Start completed.
+2024-05-22T14:06:54.992+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:54.993+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:54.999+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:55.050+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:55.057+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:55.122+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:55.195+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:55.195+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:55.195+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-05-22T14:06:55.201+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.437 seconds (process running for 26.077)
+2024-05-22T14:06:55.205+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:55.208+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:55.208+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:55.208+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:55.220+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:55.221+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown initiated...
+2024-05-22T14:06:55.250+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatCreateBookReturnsCreatedBook" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.033">
+  <testcase name="testThatCreateBookReturnsCreatedBook" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.023">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -478,33 +479,33 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:55.873+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:55.873+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:55.967+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:55.974+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:56.015+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Starting...
-2024-05-21T22:24:56.016+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-26 - Added connection conn171: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:56.016+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Start completed.
-2024-05-21T22:24:56.017+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:56.020+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:56.023+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:56.066+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:56.070+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:56.108+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:56.173+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:56.173+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:56.174+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-05-21T22:24:56.178+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.319 seconds (process running for 23.616)
-2024-05-21T22:24:56.182+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:56.185+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:56.185+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:56.185+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:56.202+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:56.203+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown initiated...
-2024-05-21T22:24:56.212+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown completed.
+2024-05-22T14:06:55.262+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:55.262+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:55.388+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:55.400+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:55.456+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Starting...
+2024-05-22T14:06:55.457+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-26 - Added connection conn189: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:55.458+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Start completed.
+2024-05-22T14:06:55.460+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:55.464+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:55.466+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:55.504+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:55.507+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:55.571+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:55.653+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:55.654+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:55.654+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-05-22T14:06:55.659+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.407 seconds (process running for 26.536)
+2024-05-22T14:06:55.664+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:55.668+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:55.668+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:55.668+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:55.682+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:55.683+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown initiated...
+2024-05-22T14:06:55.685+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatListBooksReturnsHttp200OkCreated" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.057">
+  <testcase name="testThatListBooksReturnsHttp200OkCreated" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.042">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -514,37 +515,37 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:56.227+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:56.227+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:56.318+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:56.326+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:56.373+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Starting...
-2024-05-21T22:24:56.373+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-27 - Added connection conn175: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:56.373+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Start completed.
-2024-05-21T22:24:56.374+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:56.375+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:56.380+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:56.417+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:56.424+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:56.473+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:56.532+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:56.532+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:56.533+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-05-21T22:24:56.539+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.325 seconds (process running for 23.977)
-2024-05-21T22:24:56.543+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:56.551+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:56.551+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:56.551+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:56.560+02:00  WARN 21084 --- [           main] PageModule$PlainPageSerializationWarning : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+2024-05-22T14:06:55.698+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:55.698+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:55.817+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:55.825+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:55.870+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Starting...
+2024-05-22T14:06:55.871+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-27 - Added connection conn194: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:55.872+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Start completed.
+2024-05-22T14:06:55.873+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:55.875+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:55.879+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:55.914+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:55.920+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:56.000+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:56.079+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:56.080+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:56.080+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-05-22T14:06:56.086+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.398 seconds (process running for 26.962)
+2024-05-22T14:06:56.090+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:56.092+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:56.092+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:56.093+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:56.099+02:00  WARN 18904 --- [           main] PageModule$PlainPageSerializationWarning : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
 	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
 	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
-2024-05-21T22:24:56.572+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:56.573+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown initiated...
-2024-05-21T22:24:56.599+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown completed.
+2024-05-22T14:06:56.104+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:56.105+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown initiated...
+2024-05-22T14:06:56.129+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatListAuthorsBooksReturnsHttp200OkCreated" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.036">
+  <testcase name="testThatListAuthorsBooksReturnsHttp200OkCreated" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.029">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -554,37 +555,37 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:56.616+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:56.616+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:56.709+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:56.720+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:56.768+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Starting...
-2024-05-21T22:24:56.768+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-28 - Added connection conn180: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:56.769+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Start completed.
-2024-05-21T22:24:56.770+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:56.771+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:56.774+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:56.802+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:56.807+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:56.844+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:56.890+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:56.891+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:56.891+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-05-21T22:24:56.895+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.294 seconds (process running for 24.333)
-2024-05-21T22:24:56.899+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:56.902+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:56.902+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:56.902+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:56.911+02:00  WARN 21084 --- [           main] PageModule$PlainPageSerializationWarning : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+2024-05-22T14:06:56.142+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:56.142+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:56.224+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:56.234+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:56.310+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Starting...
+2024-05-22T14:06:56.311+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-28 - Added connection conn200: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:56.311+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Start completed.
+2024-05-22T14:06:56.314+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:56.319+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:56.323+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:56.372+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:56.376+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:56.422+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:56.542+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:56.542+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:56.542+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-05-22T14:06:56.548+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.417 seconds (process running for 27.425)
+2024-05-22T14:06:56.552+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:56.555+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:56.556+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:56.556+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:56.565+02:00  WARN 18904 --- [           main] PageModule$PlainPageSerializationWarning : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
 	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
 	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
-2024-05-21T22:24:56.919+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:56.920+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown initiated...
-2024-05-21T22:24:56.934+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown completed.
+2024-05-22T14:06:56.571+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:56.572+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown initiated...
+2024-05-22T14:06:56.580+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatGetPartialUpdateBookReturnsStatus200Ok" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.029">
+  <testcase name="testThatGetPartialUpdateBookReturnsStatus200Ok" classname="com.omar.database3.controllers.BookControllerIntegrationTest" time="0.032">
     <system-out><![CDATA[  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -594,30 +595,30 @@
 
  :: Spring Boot ::             (v3.3.0-M3)
 
-2024-05-21T22:24:56.947+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 21084 (started by omars in D:\RestAPI)
-2024-05-21T22:24:56.948+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T22:24:57.022+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T22:24:57.029+02:00  INFO 21084 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
-2024-05-21T22:24:57.076+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Starting...
-2024-05-21T22:24:57.077+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-29 - Added connection conn183: url=jdbc:h2:mem:testdb user=SA
-2024-05-21T22:24:57.078+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Start completed.
-2024-05-21T22:24:57.079+02:00  INFO 21084 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T22:24:57.081+02:00  INFO 21084 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T22:24:57.084+02:00  INFO 21084 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T22:24:57.117+02:00  INFO 21084 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-21T22:24:57.121+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:57.159+02:00  WARN 21084 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T22:24:57.208+02:00  INFO 21084 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-05-21T22:24:57.208+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-05-21T22:24:57.208+02:00  INFO 21084 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2024-05-21T22:24:57.213+02:00  INFO 21084 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.276 seconds (process running for 24.651)
-2024-05-21T22:24:57.216+02:00  INFO 21084 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
-2024-05-21T22:24:57.218+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
-2024-05-21T22:24:57.218+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
-2024-05-21T22:24:57.220+02:00  INFO 21084 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
-2024-05-21T22:24:57.239+02:00  INFO 21084 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T22:24:57.240+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Shutdown initiated...
-2024-05-21T22:24:57.243+02:00  INFO 21084 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Shutdown completed.
+2024-05-22T14:06:56.594+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Starting BookControllerIntegrationTest using Java 17.0.8 with PID 18904 (started by omars in D:\RestAPI)
+2024-05-22T14:06:56.594+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T14:06:56.692+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T14:06:56.702+02:00  INFO 18904 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2024-05-22T14:06:56.741+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Starting...
+2024-05-22T14:06:56.742+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-29 - Added connection conn206: url=jdbc:h2:mem:testdb user=SA
+2024-05-22T14:06:56.743+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Start completed.
+2024-05-22T14:06:56.743+02:00  INFO 18904 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T14:06:56.745+02:00  INFO 18904 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T14:06:56.748+02:00  INFO 18904 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T14:06:56.789+02:00  INFO 18904 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T14:06:56.796+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:56.860+02:00  WARN 18904 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T14:06:56.924+02:00  INFO 18904 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-22T14:06:56.925+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-22T14:06:56.925+02:00  INFO 18904 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-05-22T14:06:56.931+02:00  INFO 18904 --- [           main] c.o.d.c.BookControllerIntegrationTest    : Started BookControllerIntegrationTest in 0.348 seconds (process running for 27.807)
+2024-05-22T14:06:56.936+02:00  INFO 18904 --- [   scheduling-1] c.o.database3.scheduled.AuthorWatcher    : There are 0 many authors in the database
+2024-05-22T14:06:56.939+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : There are 0 many books in the database
+2024-05-22T14:06:56.939+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Go to the Postman ----------->
+2024-05-22T14:06:56.939+02:00  INFO 18904 --- [   scheduling-1] c.omar.database3.scheduled.BookWatcher   : Use: Get, Put, Patch, Delete
+2024-05-22T14:06:56.959+02:00  INFO 18904 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T14:06:56.960+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Shutdown initiated...
+2024-05-22T14:06:56.967+02:00  INFO 18904 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Shutdown completed.
 ]]></system-out>
   </testcase>
 </testsuite>
